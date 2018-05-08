@@ -14,7 +14,7 @@ state = {
 
     postClickedHandler = (id) => {
         const post = this.state.posts[this.state.posts.findIndex(p=>{return p.id===id;})];
-        this.setState({selectedPost : post});
+        this.setState({selectedPostId : id});
     }
 
 
